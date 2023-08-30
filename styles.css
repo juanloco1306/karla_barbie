@@ -16,6 +16,7 @@ section
     justify-content: center;
     align-items: center;
     background: #000;
+    overflow: hidden;
 }
 section .content
 {
@@ -39,4 +40,5 @@ canvas
     background: #fff;
     z-index: 2;
     mix-blend-mode: screen;
+    overflow: hidden;
 }
