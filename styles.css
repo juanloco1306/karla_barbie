@@ -11,12 +11,11 @@ section
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #000;
-    overflow: hidden;
 }
 section .content
 {
@@ -40,5 +39,4 @@ canvas
     background: #fff;
     z-index: 2;
     mix-blend-mode: screen;
-    overflow: hidden;
 }
