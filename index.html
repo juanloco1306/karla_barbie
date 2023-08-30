@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karla</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section>
+        <div class="content">
+            <h2>Scratch-Off Reveal Content Effects</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptate officiis, unde facilis pariatur porro quae dolorum nihil omnis voluptatem suscipit, inventore voluptates.
+                Suscipit, accusantium? Magni facere suscipit sunt possimus.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae reprehenderit delectus praesentium iure.
+                Incidunt dolores, omnis, consequatur in facere delectus provident aliquam perferendis ab voluptatem quisquam placeat nesciunt quidem ad?
+            </p>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
+    <script>
+        function setup(){
+            createCanvas(windowWidth, windowHeight);
+        }
+
+        function draw(){
+            strokeWeight(50);
+            if (mouseIsPressed === true){
+                line(mouseX, mouseY, pmouseX, pmouseY)
+            }
+        }
+    </script>
+</body>
+</html>
